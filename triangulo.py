@@ -1,6 +1,5 @@
-from figura import FiguraGeometrica
+from calcular_area import FiguraGeometrica
 
-#Un triangulo es una figura gemometrica
 class Triangulo(FiguraGeometrica):
 
 	def __init__(self, base, altura):

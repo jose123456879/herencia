@@ -1,6 +1,6 @@
- from figura import FiguraGeometrica
+from calcular_area import FiguraGeometrica
 
-class Cuadrado(FiguraGeometrica):
+class cuadrado(FiguraGeometrica):
 
 	def __init__(self, lado):
 		super().__init__(lado, lado)
